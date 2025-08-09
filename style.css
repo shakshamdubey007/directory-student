@@ -1,0 +1,180 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background: #79cfe7;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+form input,
+form textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+img {
+    border-radius: 5px;
+}
+
+/* css for search */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.search-input {
+    padding: 10px 15px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #ff6200;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #0056b3;
+}
+
+/* CSS FOR DIRECTORY */
+
+.main-heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+    /* You can change this to match your theme */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*CSS FOR LOGO */
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.05);
+    /* Optional: light background */
+}
+
+.logo-side {
+    width: 110px;
+    height: auto;
+}
+
+.main-heading {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 26px;
+    font-weight: bold;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.college-address {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    ;
+}
+/* css for directory line */
+
+
+.directory-header {
+    background-color: #f5f5f5;
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 40px 0;
+}
+
+.directory-header .dept-title {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #004080;
+    color: #fff;
+    padding: 12px 24px;
+    margin-bottom: 50px; /* 👈 Adds space below department line */
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 26px;
+}
+
+.directory-header .directory-title {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    position: absolute;
+    right: 600px;
+    top: 350px;
+    font-size: 20px;
+    margin-top: 0; /* 👈 Prevents extra gap */
+}
+
+
+
+
+
+
+
+/* css for footer */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background: #79cfe7;
+    margin: 0;
+}
+
+
+.footer {
+    background-color: #2c3e50; /* Dark blue-gray */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: auto;
+    font-family: 'Times New Roman', Times, serif;
+    border-top: 1px solid #ccc;
+}
